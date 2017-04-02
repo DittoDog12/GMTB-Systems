@@ -16,16 +16,21 @@ public class ElevatorUIActivator : MonoBehaviour
 
     }
 
-    private void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Trigger Enter");
         if (other.gameObject.CompareTag("Player"))
         {
+            Debug.Log("Enter IF");
+
             ElevatorUI.SetActive(true);
         }
     }
 
-    private void OnTriggerExit(Collider other)
+    void OnTriggerExit(Collider other)
     {
+        Debug.Log("Trigger Exit");
+
         if (other.gameObject.CompareTag("Player"))
         {
             ElevatorUI.SetActive(false);
