@@ -19,7 +19,7 @@ public class ElevatorUIActivator : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         Debug.Log("Trigger Enter");
-        if (other.gameObject.CompareTag("Player"))
+        if ( other.gameObject.CompareTag("Player"))
         {
             Debug.Log("Enter IF");
 
