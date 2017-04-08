@@ -35,6 +35,7 @@ public class Player : MonoBehaviour {
 
         // Using MathF.Absolute gets us a positive number for the speed regardless of the direction.
         // This ensures the animation loop continues normally
+        // This also triggers the animation to change state, if the speed is higher than 0.1, the animator switches to the walking animation
         anim.SetFloat("Speed", Mathf.Abs(h));
 
         // Applies the current movement direction if it is below the max speed

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 9fd63e0178ecbcc4fb20f5162ddb2f39
-timeCreated: 1491417754
+timeCreated: 1491661711
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -189,12 +189,12 @@ TextureImporter:
       name: Right_leg
       rect:
         serializedVersion: 2
-        x: 730
+        x: 732
         y: 292
         width: 255
         height: 293
       alignment: 9
-      pivot: {x: 0.34256592, y: 0.9719436}
+      pivot: {x: 0.3338197, y: 1.2459753}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -99.5, y: 146.5}
@@ -216,7 +216,7 @@ TextureImporter:
         width: 306
         height: 281
       alignment: 9
-      pivot: {x: 0.15014729, y: 0.78573424}
+      pivot: {x: -0.07579928, y: 0.9206641}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -95, y: 140.5}
