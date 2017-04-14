@@ -18,7 +18,11 @@ public class Door : MonoBehaviour
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && inProximity == true)
+        {
             Player.transform.position = Destination;
+            Debug.Log("E Pressed");
+        }
+            
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
