@@ -78,12 +78,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Battery.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\ElevatorScript.cs" />
     <Compile Include="Assets\Scripts\ElevatorScriptTP.cs" />
     <Compile Include="Assets\Scripts\ElevatorUIActivator.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\PowerButton.cs" />
+    <Compile Include="Assets\Scripts\Puzzle1Controller.cs" />
+    <Compile Include="Assets\Scripts\Socket.cs" />
+    <Compile Include="Assets\Scripts\StartButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />
