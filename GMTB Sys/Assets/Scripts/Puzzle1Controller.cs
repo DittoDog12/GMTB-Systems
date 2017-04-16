@@ -31,12 +31,12 @@ public class Puzzle1Controller : MonoBehaviour
         
     }
 
-    public void addPower(float incomingPower)
+    public void AddPower(float incomingPower)
     {
         Power += incomingPower;
     }
 
-    public void removePower(float incomingPower)
+    public void RemovePower(float incomingPower)
     {
         Power -= incomingPower;
     }

@@ -24,14 +24,14 @@ public class Button : MonoBehaviour
     {
         if (Active == false)
         {
-            Console.addPower(PowertoAdd);
+            Console.AddPower(PowertoAdd);
             Active = true;
             Debug.Log(Active);
         }
            
         else if (Active == true)
         {
-            Console.removePower(PowertoAdd);
+            Console.RemovePower(PowertoAdd);
             Active = false;
             Debug.Log(Active);
         }
