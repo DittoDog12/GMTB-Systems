@@ -6,6 +6,7 @@ public class Door : MonoBehaviour
 {
     public GameObject Player;
     public Vector3 Destination;
+	public GameObject UseButton;
 
     private bool inProximity = false;
     // Use this for initialization
@@ -27,13 +28,19 @@ public class Door : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
-            inProximity = true;
+		if (collision.tag == "Player") 
+		{
+			inProximity = true;
+			UseButton.GetComponent<SpriteRenderer> ().enabled = true;
+		}
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
-            inProximity = false;
+		if (collision.tag == "Player") 
+		{
+			inProximity = false;
+			UseButton.GetComponent<SpriteRenderer> ().enabled = false;
+		}
     }
 }

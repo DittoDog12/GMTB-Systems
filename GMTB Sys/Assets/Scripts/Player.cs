@@ -64,7 +64,6 @@ public class Player : MonoBehaviour {
         theScale.x *= -1;
         transform.localScale = theScale;
     }
-
     // Code to call gameover screen
     // GameController.instance.PlayerDied();
 }
