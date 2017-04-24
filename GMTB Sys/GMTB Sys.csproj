@@ -78,11 +78,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ActivatePuzzle.cs" />
     <Compile Include="Assets\Scripts\Battery.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\ElevatorScript.cs" />
     <Compile Include="Assets\Scripts\ElevatorScriptTP.cs" />
     <Compile Include="Assets\Scripts\ElevatorUIActivator.cs" />
+    <Compile Include="Assets\Scripts\ExitPuzzle.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\JumpScare.cs" />
     <Compile Include="Assets\Scripts\JumpScareReset.cs" />

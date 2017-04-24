@@ -23,10 +23,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - Player
-  - Interactive
   - Background
+  - Props
+  - Player
+  - 
   - 
   - 
   - 
@@ -51,11 +51,11 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Default
-    uniqueID: 3363470833
-    locked: 0
   - name: Background
     uniqueID: 1535931219
+    locked: 0
+  - name: Props
+    uniqueID: 2210142325
     locked: 0
   - name: Character
     uniqueID: 2511236001
