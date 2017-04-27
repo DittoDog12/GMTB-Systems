@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+# Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GMTB Sys", "GMTB Sys.csproj", "{318C710E-62B2-0F01-3EE0-E5E1C0D2BBF1}"
 EndProject
 Global
