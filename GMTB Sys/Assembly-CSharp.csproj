@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\ElevatorScript.cs" />
      <Compile Include="Assets\Scripts\ElevatorScriptTP.cs" />
      <Compile Include="Assets\Scripts\ElevatorUIActivator.cs" />
+     <Compile Include="Assets\Scripts\ExitPuzzle.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\JumpScare.cs" />
      <Compile Include="Assets\Scripts\JumpScareReset.cs" />

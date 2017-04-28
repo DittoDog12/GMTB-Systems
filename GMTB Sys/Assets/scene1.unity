@@ -840,7 +840,7 @@ GameObject:
   - component: {fileID: 113639420}
   - component: {fileID: 113639421}
   m_Layer: 0
-  m_Name: WhileLight
+  m_Name: WhiteLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3314,8 +3314,8 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_Intensity: 50
-  m_Range: 10
+  m_Intensity: 10
+  m_Range: 25
   m_SpotAngle: 144.69156
   m_CookieSize: 10
   m_Shadows:
@@ -3389,30 +3389,30 @@ MonoBehaviour:
   ElevatorDeck5L: {fileID: 333439841}
   ElevatorDeck5R: {fileID: 755468393}
   ElevatorDeck6: {fileID: 50240231}
-  RedLight1: {fileID: 0}
-  RedLight2: {fileID: 0}
-  RedLight3: {fileID: 0}
-  RedLight4: {fileID: 0}
-  RedLight5: {fileID: 0}
-  RedLight6: {fileID: 0}
-  RedLight7: {fileID: 0}
-  RedLight8: {fileID: 0}
-  RedLight9: {fileID: 0}
-  RedLight10: {fileID: 0}
-  RedLight11: {fileID: 0}
-  RedLight12: {fileID: 0}
-  WhiteLight1: {fileID: 0}
-  WhiteLight2: {fileID: 0}
-  WhiteLight3: {fileID: 0}
-  WhiteLight4: {fileID: 0}
-  WhiteLight5: {fileID: 0}
-  WhiteLight6: {fileID: 0}
-  WhiteLight7: {fileID: 0}
-  WhiteLight8: {fileID: 0}
-  WhiteLight9: {fileID: 0}
-  WhiteLight10: {fileID: 0}
-  WhiteLight11: {fileID: 0}
-  WhiteLight12: {fileID: 0}
+  RedLight1: {fileID: 2130727231}
+  RedLight2: {fileID: 1502407617}
+  RedLight3: {fileID: 973828943}
+  RedLight4: {fileID: 505164373}
+  RedLight5: {fileID: 430763803}
+  RedLight6: {fileID: 1468952867}
+  RedLight7: {fileID: 572204742}
+  RedLight8: {fileID: 463795195}
+  RedLight9: {fileID: 1725819105}
+  RedLight10: {fileID: 620456087}
+  RedLight11: {fileID: 1881144620}
+  RedLight12: {fileID: 1329862737}
+  WhiteLight1: {fileID: 113639419}
+  WhiteLight2: {fileID: 922676664}
+  WhiteLight3: {fileID: 827153850}
+  WhiteLight4: {fileID: 1226001653}
+  WhiteLight5: {fileID: 675485970}
+  WhiteLight6: {fileID: 1764553759}
+  WhiteLight7: {fileID: 1601117629}
+  WhiteLight8: {fileID: 1163900775}
+  WhiteLight9: {fileID: 1652217988}
+  WhiteLight10: {fileID: 367932889}
+  WhiteLight11: {fileID: 721557062}
+  WhiteLight12: {fileID: 548366063}
 --- !u!1 &434305229
 GameObject:
   m_ObjectHideFlags: 0
@@ -3585,8 +3585,8 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_Intensity: 50
-  m_Range: 10
+  m_Intensity: 10
+  m_Range: 25
   m_SpotAngle: 144.69156
   m_CookieSize: 10
   m_Shadows:
@@ -3745,8 +3745,8 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_Intensity: 50
-  m_Range: 10
+  m_Intensity: 10
+  m_Range: 25
   m_SpotAngle: 144.69156
   m_CookieSize: 10
   m_Shadows:
@@ -4108,8 +4108,8 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_Intensity: 50
-  m_Range: 10
+  m_Intensity: 10
+  m_Range: 25
   m_SpotAngle: 144.69156
   m_CookieSize: 10
   m_Shadows:
@@ -4234,8 +4234,8 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_Intensity: 50
-  m_Range: 10
+  m_Intensity: 10
+  m_Range: 25
   m_SpotAngle: 144.69156
   m_CookieSize: 10
   m_Shadows:
@@ -6005,7 +6005,7 @@ GameObject:
   - component: {fileID: 922676665}
   - component: {fileID: 922676666}
   m_Layer: 0
-  m_Name: WhileLight
+  m_Name: WhiteLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6305,8 +6305,8 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_Intensity: 50
-  m_Range: 10
+  m_Intensity: 10
+  m_Range: 25
   m_SpotAngle: 76.49194
   m_CookieSize: 10
   m_Shadows:
@@ -9162,8 +9162,8 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_Intensity: 50
-  m_Range: 10
+  m_Intensity: 10
+  m_Range: 25
   m_SpotAngle: 97.22285
   m_CookieSize: 10
   m_Shadows:
@@ -10284,8 +10284,8 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_Intensity: 50
-  m_Range: 10
+  m_Intensity: 10
+  m_Range: 25
   m_SpotAngle: 144.69156
   m_CookieSize: 10
   m_Shadows:
@@ -10636,8 +10636,8 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_Intensity: 50
-  m_Range: 10
+  m_Intensity: 10
+  m_Range: 25
   m_SpotAngle: 144.69156
   m_CookieSize: 10
   m_Shadows:
@@ -11874,8 +11874,8 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_Intensity: 50
-  m_Range: 10
+  m_Intensity: 10
+  m_Range: 25
   m_SpotAngle: 144.69156
   m_CookieSize: 10
   m_Shadows:
@@ -12285,7 +12285,7 @@ GameObject:
   - component: {fileID: 1764553760}
   - component: {fileID: 1764553761}
   m_Layer: 0
-  m_Name: WhileLight
+  m_Name: WhiteLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13084,8 +13084,8 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_Intensity: 50
-  m_Range: 10
+  m_Intensity: 10
+  m_Range: 25
   m_SpotAngle: 144.69156
   m_CookieSize: 10
   m_Shadows:
@@ -14552,8 +14552,8 @@ Light:
   serializedVersion: 8
   m_Type: 0
   m_Color: {r: 1, g: 0, b: 0, a: 1}
-  m_Intensity: 50
-  m_Range: 10
+  m_Intensity: 10
+  m_Range: 25
   m_SpotAngle: 144.69156
   m_CookieSize: 10
   m_Shadows:
