@@ -18,21 +18,20 @@ public class ElevatorUIActivator : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        //Debug.Log("Trigger Enter");
+        // Triggers when something enters the Collider
         if (other.tag == "Player")
         {
-            //Debug.Log("Enter IF");
-
+            // If the other object is the player, display the ElevatorUI
             ElevatorUI.SetActive(true);
         }
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
-        //Debug.Log("Trigger Exit");
-
+        // Triggers when something leaves the Collider
         if (other.tag == "Player")
         {
+            // If the other object is the player, display the ElevatorUI
             ElevatorUI.SetActive(false);
         }
     }

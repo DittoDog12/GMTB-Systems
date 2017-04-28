@@ -21,12 +21,16 @@ public class ElevatorScriptTP : MonoBehaviour
 
     public void MoveTo(float floor)
     {
-        newPosition.y = floor;
+        // Set the X position to the intended floor
+        newPosition.x = floor;
+        // Set the Z position to the same, prevents any layering issues
         newPosition.z = player.transform.position.z;
+        // Apply the new position to the player
         player.transform.position = newPosition;
     }
     public void setShaft(float shaft)
     {
+        // Set the Y position to the current elevator shaft
         newPosition.y = shaft;
     }
 }

@@ -1,7 +1,7 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GMTB Sys", "Assembly-CSharp.csproj", "{283E60E0-3B6D-10DC-4E04-4751377686FE}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GMTB Sys", "GMTB Sys.csproj", "{318C710E-62B2-0F01-3EE0-E5E1C0D2BBF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,12 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{283E60E0-3B6D-10DC-4E04-4751377686FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{283E60E0-3B6D-10DC-4E04-4751377686FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{283E60E0-3B6D-10DC-4E04-4751377686FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{283E60E0-3B6D-10DC-4E04-4751377686FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{318C710E-62B2-0F01-3EE0-E5E1C0D2BBF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{318C710E-62B2-0F01-3EE0-E5E1C0D2BBF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{318C710E-62B2-0F01-3EE0-E5E1C0D2BBF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{318C710E-62B2-0F01-3EE0-E5E1C0D2BBF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
