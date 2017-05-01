@@ -8,7 +8,7 @@ public class Player : MonoBehaviour {
 
     [HideInInspector]
     public bool facingRight = true;
-
+    public bool holdingBattery = false;
     public float moveForce = 365f;
     public float maxSpeed = 5f;
 

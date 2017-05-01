@@ -10,6 +10,10 @@ public class GameController : MonoBehaviour {
 
     // Game Over controls
     public GameObject gameOverScreen;
+
+    //BATTERY TESTING
+    public GameObject battery;
+
     public bool gameOver = false;
 
     // Scrolling background control, accessable via the static instance.
@@ -31,6 +35,7 @@ public class GameController : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
+
         // Reload current scene if player clicks after a game over
         if (gameOver && Input.GetMouseButtonDown(0))
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

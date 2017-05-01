@@ -7,6 +7,7 @@ public class ElevatorScript : MonoBehaviour
     public Rigidbody2D rb2d;
     public float speed = 2.3f;
     public Vector3 TargetFloor;
+    //public Transform elevatorTarget;
     // Use this for initialization
     void Start()
     {
