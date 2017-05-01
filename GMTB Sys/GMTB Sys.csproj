@@ -79,7 +79,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ActivatePuzzle.cs" />
-    <Compile Include="Assets\Scripts\Battery.cs" />
     <Compile Include="Assets\Scripts\Door.cs" />
     <Compile Include="Assets\Scripts\ElevatorScript.cs" />
     <Compile Include="Assets\Scripts\ElevatorScriptTP.cs" />
@@ -89,11 +88,11 @@
     <Compile Include="Assets\Scripts\JumpScare.cs" />
     <Compile Include="Assets\Scripts\JumpScareReset.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
-    <Compile Include="Assets\Scripts\PowerButton.cs" />
     <Compile Include="Assets\Scripts\PowerController.cs" />
-    <Compile Include="Assets\Scripts\Puzzle1Controller.cs" />
-    <Compile Include="Assets\Scripts\Socket.cs" />
-    <Compile Include="Assets\Scripts\StartButton.cs" />
+    <Compile Include="Assets\Scripts\Puzzle 1\Battery.cs" />
+    <Compile Include="Assets\Scripts\Puzzle 1\PowerButton.cs" />
+    <Compile Include="Assets\Scripts\Puzzle 1\Puzzle1Controller.cs" />
+    <Compile Include="Assets\Scripts\Puzzle 1\StartButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />
