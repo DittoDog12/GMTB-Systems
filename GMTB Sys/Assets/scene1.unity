@@ -6436,7 +6436,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &988388716
 Transform:
   m_ObjectHideFlags: 0
@@ -11835,6 +11835,7 @@ MonoBehaviour:
   Target: 0
   DrainPerAttempt: 0
   _Battery: {fileID: 0}
+  PwrCtrl: {fileID: 0}
 --- !u!1 &1725819105
 GameObject:
   m_ObjectHideFlags: 0
@@ -13824,7 +13825,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!50 &2069425173
 Rigidbody2D:
   serializedVersion: 4

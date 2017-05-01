@@ -9,6 +9,8 @@ public class Puzzle1Controller : MonoBehaviour
     private float Power;
 
     public Battery _Battery;
+
+    public PowerController PwrCtrl;
     // Use this for initialization
     void Start()
     {
@@ -23,8 +25,8 @@ public class Puzzle1Controller : MonoBehaviour
 
     public void CheckSolution()
     {
-        if (Power == Target) { }
-        //Puzzle Complete
+        if (Power == Target)
+            PwrCtrl.PowerOn();
 
         if (Power > Target)
             _Battery.Charge -= DrainPerAttempt;
