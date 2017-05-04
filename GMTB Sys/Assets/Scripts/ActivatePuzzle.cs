@@ -23,14 +23,17 @@ public class ActivatePuzzle : MonoBehaviour
 		{
 			Puzzle.SetActive (true);
 			Player.SetActive (false);
+			Debug.Log ("PuzzleActivated");
 		}
 
 	}
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
+		Debug.Log ("Enter Trigger");
 		if (collision.tag == "Player") 
 		{
+			Debug.Log ("enter collision");
 			inProximity = true;
 			UseButton.GetComponent<SpriteRenderer> ().enabled = true;
 		}

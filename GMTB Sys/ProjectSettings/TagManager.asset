@@ -14,6 +14,7 @@ TagManager:
   - ExplosionFX
   - HealthBar
   - Interactive
+  - Led
   layers:
   - Default
   - TransparentFX
