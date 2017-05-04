@@ -26,6 +26,7 @@ public class PowerController : MonoBehaviour
     public GameObject RedLight10;
     public GameObject RedLight11;
     public GameObject RedLight12;
+    public GameObject RedLight13;
 
     public GameObject WhiteLight1;
     public GameObject WhiteLight2;
@@ -39,6 +40,7 @@ public class PowerController : MonoBehaviour
     public GameObject WhiteLight10;
     public GameObject WhiteLight11;
     public GameObject WhiteLight12;
+    public GameObject WhiteLight13;
 
     // Use this for initialization
     void Start()
@@ -79,6 +81,7 @@ public class PowerController : MonoBehaviour
         RedLight10.SetActive(false);
         RedLight11.SetActive(false);
         RedLight12.SetActive(false);
+        RedLight13.SetActive(false);
         #endregion
 
         #region WhiteLights
@@ -94,6 +97,7 @@ public class PowerController : MonoBehaviour
         WhiteLight10.SetActive(true);
         WhiteLight11.SetActive(true);
         WhiteLight12.SetActive(true);
+        WhiteLight13.SetActive(true);
         #endregion
 
     }

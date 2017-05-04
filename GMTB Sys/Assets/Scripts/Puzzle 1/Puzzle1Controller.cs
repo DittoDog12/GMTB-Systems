@@ -13,7 +13,9 @@ namespace Assets.Scripts.Puzzle_1
         public bool holdingBattery;
 
         public ChargingStation charger;
-        public Battery battery;        
+        public Battery battery;
+
+        public PowerController PwrCtrl;      
 
         #region GET/SETS
 
@@ -48,6 +50,7 @@ namespace Assets.Scripts.Puzzle_1
             {
                 //Puzzle Complete
                Debug.Log("SUCCESS");
+                PwrCtrl.PowerOn();
             }
             else if (Power != Target)
             {
