@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\ActivatePuzzle.cs" />
-     <Compile Include="Assets\Scripts\Battery.cs" />
      <Compile Include="Assets\Scripts\Door.cs" />
      <Compile Include="Assets\Scripts\ElevatorScript.cs" />
      <Compile Include="Assets\Scripts\ElevatorScriptTP.cs" />
@@ -56,12 +55,14 @@
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\JumpScare.cs" />
      <Compile Include="Assets\Scripts\JumpScareReset.cs" />
+     <Compile Include="Assets\Scripts\Pickup.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
-     <Compile Include="Assets\Scripts\PowerButton.cs" />
      <Compile Include="Assets\Scripts\PowerController.cs" />
-     <Compile Include="Assets\Scripts\Puzzle1Controller.cs" />
-     <Compile Include="Assets\Scripts\Socket.cs" />
-     <Compile Include="Assets\Scripts\StartButton.cs" />
+     <Compile Include="Assets\Scripts\Puzzle1.OLD\Battery.cs" />
+     <Compile Include="Assets\Scripts\Puzzle1.OLD\PowerButton.cs" />
+     <Compile Include="Assets\Scripts\Puzzle1.OLD\Puzzle1Controller.cs" />
+     <Compile Include="Assets\Scripts\Puzzle1.OLD\Socket.cs" />
+     <Compile Include="Assets\Scripts\Puzzle1.OLD\StartButton.cs" />
      <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />
      <None Include="Assets\Textures and Sprites\SF UI\Background\LICENSE.txt" />
  <Reference Include="UnityEngine.Analytics">
