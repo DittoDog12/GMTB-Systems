@@ -18,10 +18,7 @@ namespace Assets.scripts
         // Update is called once per frame
         void Update()
         {
-            if (controller.active == true)
-            {
-                GetComponent<Collider2D>().enabled = true;
-            }
+
         }
 
         void OnTriggerEnter2D(Collider2D other)
@@ -30,7 +27,8 @@ namespace Assets.scripts
             if (other.tag == "Player")
             {
                 // If the other object is the player, display the ElevatorUI
-                ElevatorUI.SetActive(true);
+                if (controller.active == true)
+                    ElevatorUI.SetActive(true);
             }
         }
 
@@ -40,7 +38,8 @@ namespace Assets.scripts
             if (other.tag == "Player")
             {
                 // If the other object is the player, display the ElevatorUI
-                ElevatorUI.SetActive(false);
+                if (controller.active == true)
+                    ElevatorUI.SetActive(false);
             }
         }
     }

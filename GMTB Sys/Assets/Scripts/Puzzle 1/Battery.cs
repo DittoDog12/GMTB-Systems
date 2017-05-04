@@ -10,7 +10,7 @@ namespace Assets.Scripts.Puzzle_1
         public GameObject player;
 
         public float storedEnergy = 0;
-        public float maxEnergy = 3;
+        public float maxEnergy = 4;
         public bool inConsole = false;
         public bool isCharging = false;
         public bool pickUp = false;

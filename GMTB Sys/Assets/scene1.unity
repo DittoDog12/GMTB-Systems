@@ -393,7 +393,7 @@ BoxCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 50240231}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -571,7 +571,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 7.1
+          m_FloatArgument: 39.5
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
@@ -582,7 +582,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: -61.18
+          m_FloatArgument: -60.9
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
@@ -763,6 +763,11 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!224 &124849163 stripped
+RectTransform:
+  m_PrefabParentObject: {fileID: 224585536863217706, guid: b14e0e8267a74114d98e649510809020,
+    type: 2}
+  m_PrefabInternal: {fileID: 1433733301}
 --- !u!1 &125830456
 GameObject:
   m_ObjectHideFlags: 0
@@ -1138,7 +1143,7 @@ BoxCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 173732103}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -1776,7 +1781,7 @@ BoxCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 288330972}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -1911,7 +1916,7 @@ BoxCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 333439841}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -2013,7 +2018,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 49.61
+          m_FloatArgument: 49.4
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
@@ -2024,7 +2029,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: -0.85
+          m_FloatArgument: -0.5
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
@@ -2873,7 +2878,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d70b1950e8423046a0bb0f453e8593d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  elevators: {fileID: 0}
+  elevators: {fileID: 462779263}
   RedLight1: {fileID: 2130727231}
   RedLight2: {fileID: 1502407617}
   RedLight3: {fileID: 973828943}
@@ -2983,7 +2988,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: -28.1
+          m_FloatArgument: -3.7
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
@@ -2994,7 +2999,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: -15.92
+          m_FloatArgument: -15.55
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
@@ -3547,7 +3552,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 7.1
+          m_FloatArgument: 51.8
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
@@ -3558,7 +3563,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: -30.98
+          m_FloatArgument: -30.59
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
@@ -4153,6 +4158,80 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &732147149
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 732147150}
+  - component: {fileID: 732147152}
+  - component: {fileID: 732147151}
+  m_Layer: 5
+  m_Name: ChargeLevel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &732147150
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 732147149}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 124849163}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -301.3, y: -48.3}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &732147151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 732147149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 7cb2912222469634ba17a77055919ea8, type: 3}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: ChargeLevel
+--- !u!222 &732147152
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 732147149}
 --- !u!1 &755468393
 GameObject:
   m_ObjectHideFlags: 0
@@ -4269,7 +4348,7 @@ BoxCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 755468393}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -4653,8 +4732,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puzzleController: {fileID: 1724556071}
   player: {fileID: 2069425172}
-  storedEnergy: 3
-  maxEnergy: 3
+  storedEnergy: 4
+  maxEnergy: 4
   inConsole: 0
   isCharging: 0
   pickUp: 0
@@ -4903,7 +4982,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 7.1
+          m_FloatArgument: 51.8
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
@@ -4914,7 +4993,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: -46.07
+          m_FloatArgument: -45.7
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
@@ -6170,7 +6249,7 @@ BoxCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1004683331}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -6541,7 +6620,7 @@ BoxCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1024998349}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -6819,7 +6898,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: -28.1
+          m_FloatArgument: -2.2
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
@@ -6830,7 +6909,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: -30.98
+          m_FloatArgument: -30.59
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
@@ -7354,7 +7433,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 49.61
+          m_FloatArgument: 49.4
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
@@ -7365,7 +7444,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 14.2
+          m_FloatArgument: 14.6
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
@@ -8459,7 +8538,7 @@ GameObject:
   - component: {fileID: 1312434683}
   - component: {fileID: 1312434682}
   m_Layer: 0
-  m_Name: Elevator
+  m_Name: ElevatorTransporter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8897,7 +8976,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: -28.1
+          m_FloatArgument: -3.2
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
@@ -8908,7 +8987,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: -46.07
+          m_FloatArgument: -45.7
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
@@ -9626,6 +9705,117 @@ Prefab:
       propertyPath: powerVal
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 108482570168576308, guid: b14e0e8267a74114d98e649510809020,
+        type: 2}
+      propertyPath: m_Range
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108025068950941878, guid: b14e0e8267a74114d98e649510809020,
+        type: 2}
+      propertyPath: m_Range
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108091346240444474, guid: b14e0e8267a74114d98e649510809020,
+        type: 2}
+      propertyPath: m_Range
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108193936741259010, guid: b14e0e8267a74114d98e649510809020,
+        type: 2}
+      propertyPath: m_Range
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108938260986692512, guid: b14e0e8267a74114d98e649510809020,
+        type: 2}
+      propertyPath: m_Range
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108306237835443754, guid: b14e0e8267a74114d98e649510809020,
+        type: 2}
+      propertyPath: m_Range
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108088055476552628, guid: b14e0e8267a74114d98e649510809020,
+        type: 2}
+      propertyPath: m_Range
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108254576299798892, guid: b14e0e8267a74114d98e649510809020,
+        type: 2}
+      propertyPath: m_Range
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108822422159069626, guid: b14e0e8267a74114d98e649510809020,
+        type: 2}
+      propertyPath: m_Range
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108802389001902408, guid: b14e0e8267a74114d98e649510809020,
+        type: 2}
+      propertyPath: m_Range
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1683437639535424, guid: b14e0e8267a74114d98e649510809020, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788873841574874, guid: b14e0e8267a74114d98e649510809020, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1094492186650784, guid: b14e0e8267a74114d98e649510809020, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1755985194096500, guid: b14e0e8267a74114d98e649510809020, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1532961282167828, guid: b14e0e8267a74114d98e649510809020, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1264347700587938, guid: b14e0e8267a74114d98e649510809020, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1792665199774902, guid: b14e0e8267a74114d98e649510809020, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1913563446912816, guid: b14e0e8267a74114d98e649510809020, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1120442663648834, guid: b14e0e8267a74114d98e649510809020, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1879236387425622, guid: b14e0e8267a74114d98e649510809020, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 212147417085273606, guid: b14e0e8267a74114d98e649510809020,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: d4993391e5232cd45ab9873b9571148b,
+        type: 3}
+    - target: {fileID: 224835671869164608, guid: b14e0e8267a74114d98e649510809020,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -334.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114280447935092532, guid: b14e0e8267a74114d98e649510809020,
+        type: 2}
+      propertyPath: ChargeLevel
+      value: 
+      objectReference: {fileID: 732147151}
+    - target: {fileID: 114280447935092532, guid: b14e0e8267a74114d98e649510809020,
+        type: 2}
+      propertyPath: BatteryLevel
+      value: 
+      objectReference: {fileID: 1458799476}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b14e0e8267a74114d98e649510809020, type: 2}
   m_IsPrefabParent: 0
@@ -9793,6 +9983,80 @@ SpriteRenderer:
   m_Size: {x: 198.43, y: 44.65}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
+--- !u!1 &1458799474
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1458799475}
+  - component: {fileID: 1458799477}
+  - component: {fileID: 1458799476}
+  m_Layer: 5
+  m_Name: BatteryLevel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1458799475
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1458799474}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 124849163}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -301.3, y: -195}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1458799476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1458799474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: 7cb2912222469634ba17a77055919ea8, type: 3}
+    m_FontSize: 30
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 0
+    m_MaxSize: 40
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: BatteryLevel
+--- !u!222 &1458799477
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1458799474}
 --- !u!1 &1466910014
 GameObject:
   m_ObjectHideFlags: 0
@@ -10556,7 +10820,7 @@ Prefab:
     - target: {fileID: 61770469123553444, guid: 8d92a588d36c4f54cba3d7d977cf3a7b,
         type: 2}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114991286323756108, guid: 8d92a588d36c4f54cba3d7d977cf3a7b,
         type: 2}
@@ -12389,7 +12653,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 49.61
+          m_FloatArgument: 49.4
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
@@ -12400,7 +12664,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: -15.92
+          m_FloatArgument: -15.55
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 1
@@ -12919,7 +13183,7 @@ BoxCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2097657078}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
