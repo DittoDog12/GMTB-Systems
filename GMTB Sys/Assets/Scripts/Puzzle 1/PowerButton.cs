@@ -10,7 +10,7 @@ namespace Assets.Scripts.Puzzle_1
         private bool Active = false;
 
         public Puzzle1Controller Console;
-        
+        public Battery battery;
         // Use this for initialization
         void Start()
         {
@@ -27,19 +27,24 @@ namespace Assets.Scripts.Puzzle_1
             // IConsoleCharge charging = gameObject.GetComponent<Puzzle1Controller>();
             if (Console.isHoldingBattery() == true)
             {
-                if (Active == false)
+                if (battery.charged == true)
                 {
-                    Console.chargeConsole(powerVal);
-                    Active = true;
-                    Debug.Log("charging console");
-                }
+                    if (Active == false)
+                    {
+                        Console.chargeConsole(powerVal);
+                        Active = true;
+                        Debug.Log("charging console");
+                    }
 
-                else if (Active == true)
-                {
-                    Console.drainConsole(powerVal);
-                    Active = false;
-                    Debug.Log("Powering down Console");
+                    else if (Active == true)
+                    {
+                        Console.drainConsole(powerVal);
+                        Active = false;
+                        Debug.Log("Powering down Console");
+                    }
                 }
+                else
+                    Debug.Log("there is no power in the battery");
             }
         }
     }

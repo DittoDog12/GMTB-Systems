@@ -92,9 +92,9 @@
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PowerController.cs" />
     <Compile Include="Assets\Scripts\Puzzle 1\Battery.cs" />
+    <Compile Include="Assets\Scripts\Puzzle 1\ChargingStation.cs" />
     <Compile Include="Assets\Scripts\Puzzle 1\PowerButton.cs" />
     <Compile Include="Assets\Scripts\Puzzle 1\Puzzle1Controller.cs" />
-    <Compile Include="Assets\Scripts\Puzzle 1\ChargingStation.cs" />
     <Compile Include="Assets\Scripts\Puzzle 1\StartButton.cs" />
   </ItemGroup>
   <ItemGroup>

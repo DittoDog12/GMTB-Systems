@@ -6,7 +6,7 @@ namespace Assets.Scripts.Puzzle_1
 {
     public class Battery : MonoBehaviour
     {
-        public GameObject puzzleController;
+        public Puzzle1Controller puzzleController;
         public GameObject player;
 
         public float storedEnergy = 0;
@@ -15,6 +15,7 @@ namespace Assets.Scripts.Puzzle_1
         public bool isCharging = false;
         public bool pickUp = false;
         public bool inProximity = false;
+        public bool charged = false;
 
         #region GET/SETS
 
@@ -31,8 +32,7 @@ namespace Assets.Scripts.Puzzle_1
 
         // Use this for initialization
         void Start()
-        {
-        }
+        { }
 
         #region Power Management
 
@@ -44,7 +44,6 @@ namespace Assets.Scripts.Puzzle_1
 
         public void drainPower(float transferVal)
         {
-            //
             Debug.Log("subtracting power");
             storedEnergy -= transferVal;
         }
@@ -58,8 +57,8 @@ namespace Assets.Scripts.Puzzle_1
             {
                 Debug.Log("E Pressed");
                 pickUp = true;
+                puzzleController.setBattery(true);
                 inProximity = false;
-                
             }
 
         }
@@ -69,7 +68,6 @@ namespace Assets.Scripts.Puzzle_1
             if (collision.tag == "Player" && pickUp == false)
             {
                 inProximity = true;
-                // UseButton.GetComponent<SpriteRenderer>().enabled = true;
             }
         }
         #endregion
@@ -78,6 +76,12 @@ namespace Assets.Scripts.Puzzle_1
         void Update()
         {
             input();
+
+            if (storedEnergy <= 0)
+            {
+                charged = false;
+            }
+            else charged = true;
         }
     }
 }

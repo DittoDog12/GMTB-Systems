@@ -13,9 +13,7 @@ namespace Assets.Scripts.Puzzle_1
         public bool holdingBattery;
 
         public ChargingStation charger;
-        public Battery battery;
-        public StartButton launch;
-        
+        public Battery battery;        
 
         #region GET/SETS
 
@@ -23,7 +21,10 @@ namespace Assets.Scripts.Puzzle_1
         {
             return holdingBattery;
         }
-
+        public void setBattery(bool holding)
+        {
+            holdingBattery = holding;
+        }
         #endregion
 
         // Use this for initialization
@@ -34,8 +35,8 @@ namespace Assets.Scripts.Puzzle_1
         // Update is called once per frame
         void Update()
         {
-           // CheckSolution();
-           if( battery.getPickedUp() == true)
+            //CheckSolution();
+            if (battery.getPickedUp() == true)
             {
                 holdingBattery = true;
             }
@@ -46,8 +47,11 @@ namespace Assets.Scripts.Puzzle_1
             if (Power == Target)
             {
                 //Puzzle Complete
-                launch.canActivate(true);
-               // Debug.Log("SUCCESS");
+               Debug.Log("SUCCESS");
+            }
+            else if (Power != Target)
+            {
+                Debug.Log("FAIL");
             }
 
             if (Power > Target)
@@ -57,7 +61,6 @@ namespace Assets.Scripts.Puzzle_1
             }
 
         }
-
 
         #region CONSOLE POWER MANAGEMENT
 
