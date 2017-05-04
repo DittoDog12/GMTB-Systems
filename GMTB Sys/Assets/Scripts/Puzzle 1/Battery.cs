@@ -60,7 +60,6 @@ namespace Assets.Scripts.Puzzle_1
                 puzzleController.setBattery(true);
                 inProximity = false;
             }
-
         }
 
         private void OnTriggerEnter2D(Collider2D collision)
@@ -68,6 +67,18 @@ namespace Assets.Scripts.Puzzle_1
             if (collision.tag == "Player" && pickUp == false)
             {
                 inProximity = true;
+                Debug.Log(inProximity);
+            }
+        }
+        private void OnTriggerExit2D(Collider2D collision)
+        {
+            {
+                if (collision.tag == "Player" && pickUp == false)
+                {
+                    inProximity = false;
+                    Debug.Log(inProximity);
+                }
+
             }
         }
         #endregion

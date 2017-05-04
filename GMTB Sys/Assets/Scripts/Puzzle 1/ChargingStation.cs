@@ -17,23 +17,28 @@ namespace Assets.Scripts.Puzzle_1
         {
         }
 
-        public void input()
+        private void input()
         {
-            if (Input.GetKeyDown(KeyCode.E) && inProximity == true)// && puzzleController.isHoldingBattery() == true)
+            if(Input.GetKeyDown(KeyCode.E) && inProximity)
             {
-                Debug.Log("charging");
-                battery.isCharging = true;
-                puzzleController.setBattery(false);
-                chargingBattery = true;
+                Debug.Log(" CHAGING STATION E PRESS SUCCESS");
             }
-            if (Input.GetKeyDown(KeyCode.E) && inProximity)// == true && chargingBattery)
-            {
-                Debug.Log("battery removed");
-                battery.isCharging = false;
-                //holdingBattery = false;
-                //puzzleController.setBattery(true);
-                //battery.setPickedUp(true);
-            }
+
+            //if (Input.GetKeyDown(KeyCode.E) && inProximity == true)// && puzzleController.isHoldingBattery() == true)
+            //{
+            //    Debug.Log("charging");
+            //    battery.isCharging = true;
+            //    puzzleController.setBattery(false);
+            //    chargingBattery = true;
+            //}
+            //if (Input.GetKeyDown(KeyCode.E) && inProximity)// == true && chargingBattery)
+            //{
+            //    Debug.Log("battery removed");
+            //    battery.isCharging = false;
+            //    //holdingBattery = false;
+            //    //puzzleController.setBattery(true);
+            //    //battery.setPickedUp(true);
+            //}
 
         }
         
@@ -42,6 +47,8 @@ namespace Assets.Scripts.Puzzle_1
             if (collision.tag == "Player")
             {
                 inProximity = true;
+                Debug.Log("Entered the trigger area");
+                Debug.Log(inProximity);
             }
         }
         private void OnTriggerExit2D(Collider2D collision)
@@ -49,6 +56,10 @@ namespace Assets.Scripts.Puzzle_1
             if(collision.tag == "Player")
             {
                 inProximity = false;
+                Debug.Log("Left the trigger area");
+                Debug.Log(inProximity);
+
+
             }
         }
         void update()

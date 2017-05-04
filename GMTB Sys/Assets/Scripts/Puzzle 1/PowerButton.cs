@@ -46,6 +46,6 @@ namespace Assets.Scripts.Puzzle_1
                 else
                     Debug.Log("there is no power in the battery");
             }
-        }
+        }   
     }
 }
