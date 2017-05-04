@@ -2,36 +2,39 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ElevatorScript : MonoBehaviour
+namespace Assets.scripts
 {
-    public Rigidbody2D rb2d;
-    public float speed = 2.3f;
-    public Vector3 TargetFloor;
-
-    // Use this for initialization
-    void Start()
+    public class ElevatorScript : MonoBehaviour
     {
-        // Link rb2d to the Elevator's physical component
-        rb2d = GetComponent<Rigidbody2D>();
-        // Set starting position
-        TargetFloor = transform.position;
-    }
+        public Rigidbody2D rb2d;
+        public float speed = 2.3f;
+        public Vector3 TargetFloor;
 
-    // Update is called once per frame
-    void Update()
-    {
-        // Only run if the TargetFloor is different to where the Elevator currently is
-        if (transform.position != TargetFloor)
+        // Use this for initialization
+        void Start()
         {
-            // Move to the target floor over time at the specified speed
-            float step = speed * Time.deltaTime;
-            transform.position = Vector3.MoveTowards(transform.position, TargetFloor, step);
-        }       
-    }
+            // Link rb2d to the Elevator's physical component
+            rb2d = GetComponent<Rigidbody2D>();
+            // Set starting position
+            TargetFloor = transform.position;
+        }
 
-    public void MoveTo(float floor)
-    {
-        // Elevator Button calls this method, sending the destiation floor via the Parameter
-        TargetFloor.y = floor;
+        // Update is called once per frame
+        void Update()
+        {
+            // Only run if the TargetFloor is different to where the Elevator currently is
+            if (transform.position != TargetFloor)
+            {
+                // Move to the target floor over time at the specified speed
+                float step = speed * Time.deltaTime;
+                transform.position = Vector3.MoveTowards(transform.position, TargetFloor, step);
+            }
+        }
+
+        public void MoveTo(float floor)
+        {
+            // Elevator Button calls this method, sending the destiation floor via the Parameter
+            TargetFloor.y = floor;
+        }
     }
 }

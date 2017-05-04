@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using Assets.scripts;
 namespace Assets.Scripts.Puzzle_1
 {
     public class Puzzle1Controller : MonoBehaviour
